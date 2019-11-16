@@ -25,6 +25,6 @@ body {
   text-align: center;
 }
 
-.circle {
-  border-radius: 50%;
+.fartsDown {
+  background: #663300 url("img/transparent_button_pressed.png") no-repeat !important;
 }
