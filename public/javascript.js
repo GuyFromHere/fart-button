@@ -19,12 +19,12 @@ $(document).ready(function() {
   fartBtn.attr("class", "farts");
   $(".container").append(fartBtn);
 
-  $(".farts").on("mouseup touchend", function() {
+  $(".farts").on("touchend", function() {
     fartBtn.toggleClass("fartsDown");
     playAudio();
   });
 
-  $(".farts").on("mousedown touchstart", function() {
+  $(".farts").on("touchstart", function() {
     fartBtn.toggleClass("fartsDown");
   });
 });
