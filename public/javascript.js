@@ -19,12 +19,14 @@ $(document).ready(function() {
   fartBtn.attr("class", "farts");
   $(".container").append(fartBtn);
 
-  $(".farts").on("touchend", function() {
+  $(".farts").on("touchend", function(e) {
+    e.preventDefault();
     fartBtn.toggleClass("fartsDown");
     playAudio();
   });
 
-  $(".farts").on("touchstart", function() {
+  $(".farts").on("touchstart", function(e) {
+    e.preventDefault();
     fartBtn.toggleClass("fartsDown");
   });
 });

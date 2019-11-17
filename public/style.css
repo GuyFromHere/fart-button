@@ -2,6 +2,7 @@
   /* layout */
   /* appearance */
   /* position */
+  padding: 20px;
   margin: 0 auto;
   /* typography */
   text-align: center;
@@ -18,7 +19,6 @@ body {
   width: 188px;
   height: 174px;
   background: #663300 url("img/transparent_button_normal.png") no-repeat;
-
   /* position */
   margin: 0 auto;
   /* typography */
