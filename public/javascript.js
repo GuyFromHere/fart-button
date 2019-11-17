@@ -12,7 +12,7 @@ $(document).ready(function() {
   function playAudio() {
     var audioElement = document.createElement("audio");
     var fartFile = Math.floor(Math.random() * Math.floor(farts.length));
-    audioElement.setAttribute("src", "public/" + farts[fartFile]);
+    audioElement.setAttribute("src", "public/audio/" + farts[fartFile]);
     audioElement.play();
   }
 
