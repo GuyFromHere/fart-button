@@ -29,4 +29,15 @@ $(document).ready(function() {
     e.preventDefault();
     fartBtn.toggleClass("fartsDown");
   });
+
+  $(".farts").on("mousedown", function(e) {
+    e.preventDefault();
+    fartBtn.toggleClass("fartsDown");
+    playAudio();
+  });
+
+  $(".farts").on("mouseup", function(e) {
+    e.preventDefault();
+    fartBtn.toggleClass("fartsDown");
+  });
 });
